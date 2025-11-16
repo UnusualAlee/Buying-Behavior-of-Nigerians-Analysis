@@ -1,21 +1,21 @@
 # Behavioral/Digital & Social Media analysis
 
-### Project Overview
+### 🎯 Project Overview
 
 This data project aims to provide insight into how Nigerians make purchase decisions. By analyzing various aspect such as; their income, where they shop, what product is often bought, how often they shop, how much they spend on average, preferred payment method and what influences their buying decisions. We seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the Buying Behavior of Nigerians.
 
-### Data Source
+### 🧩 Data Source
 
 The primary dataset for this analysis is the "Form_Response.csv" file, collected through a Google Form and contains detailed information about each respondents buying behavior.
 
-### Tools
+### 🛠️ Tools
 
 - Power Query - Clean data, prepare data.
 - Excel - Create additional column, performed calculations using formulas.
 - Pivot Table - Analyze and Summarize data, Build Dashboard.
 
 
-### Data Cleaning/Preparation
+###  Data Cleaning/Preparation
 
 In the initial data preparation phase, we performed the following tasks;
 1. Data loading and inspection.
@@ -39,7 +39,7 @@ Monthly Spend category    =IF([@[Average Spend (#)]]<2000,"Low", IF([@[Average S
 Active Shopper     =IF([@[Shopping Frequency (Per month)]]>=5,"Frequent","Occasional")
 ````
 
-### Results/Findings
+### 📊 Results/Findings
 
 We had a total of 112 respondents, which reduced to 107 after data cleaning. The ages of the respondents ranged from 18–25, 26–35, and 36+. The sample cut across 15 states, with Lagos having the highest number of respondents (71), while Enugu, Rivers, Bayelsa, Kaduna, Imo, and Ondo had the least, with one respondent each.
 The gender distribution of the sampled population shows that the majority of the respondents were male, with 64 males and 43 females, representing approximately 60% and 40% of the population respectively.
